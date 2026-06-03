@@ -1,0 +1,14 @@
+body {
+  background-color: #302f2f;
+}
+
+.hero {
+  background: linear-gradient(to right, #111, #272626);
+  padding: 80px 20px;
+  margin-bottom: 30px;
+}
+
+.card img {
+  height: 400px;
+  object-fit: cover;
+}
