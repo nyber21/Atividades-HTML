@@ -1,0 +1,15 @@
+#Estudante {
+    accent-color: purple;
+}
+
+#senha {
+    outline: none;
+}
+
+.caixa {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 750px;
+    display: none;
+}

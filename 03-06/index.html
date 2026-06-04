@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Felipe Ramos Pitoli" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validação Senha</title>
+</head>
+<body>
+    
+    <p id="mensagem">Senha:</p>
+    <input type="password" id="senha" oninput="atualizar()" placeholder="inserir Senha"></input><button onclick="MostrarOcultar()">Mostrar/Ocultar</button>
+    <p></p>
+    <input type="checkbox" id="Estudante" onchange="Estudante()"></input>
+    <label for="Estudante">Sou estudante</label>
+    <div class="caixa">
+        <p>Curso: <input id="Curso"></input></p>
+        <p>Instituição: <input id="Instituição"></input></p>
+        <p>Periodo: <input id="InicioCurso" type="date"></input> a <input id="TerminoCurso" type="date"></input></p>
+    </div>
+
+    
+<script src="script.js"></script>
+</body>
+</html>
